@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints
+
+# ---- Virtual Environments ----
+env/
+venv/
+.venv/
+
+# ---- Environment / Secrets ----
+.env
+*.env
+.env.*
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- AI/ML Related ----
+# Model weights
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Large data files (you usually don’t want raw datasets in git)
+data/
+*.csv
+*.tsv
+*.json
+*.parquet
+
+# ---- Build / Dist ----
+build/
+dist/
+*.egg-info/
