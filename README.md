@@ -37,8 +37,11 @@ All of this runs on a clean **Streamlit web interface**.
 
 ## 📂 Project Structure  
 ├── pdf_bot.py # Main Streamlit app
+
 ├── requirement.txt # Dependencies
+
 ├── .env # Store your GOOGLE_API_KEY
+
 └── faiss_index/ # Local FAISS vector store
 
 ---
